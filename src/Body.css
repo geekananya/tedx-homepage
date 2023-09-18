@@ -1,0 +1,32 @@
+.content{
+    position: relative;
+    bottom: 390px;
+}
+.text
+{
+    position: absolute;
+    top:0;
+    color:#6f94c1;
+}
+.X{
+    filter: blur(2px);
+}
+
+@media only screen and (max-width: 600px) {
+    .content{
+        bottom: 350px;
+    }
+    .X{
+        height: 250px;
+        width: auto;
+    }
+    .text{
+        margin: 0 128px 0 128px !important;
+    }
+    .text h2{
+        font-size: 1rem;
+    }
+    .text p{
+        font-size: 0.8rem;
+    }
+}

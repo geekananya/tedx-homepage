@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: Neue-Einstellung;
+  src: url('./assets/fonts/Hanken Design Co - Neue Einstellung Regular.otf');
+}
+@font-face {
+  font-family: Neue-Einstellung-bold;
+  src: url('./assets/fonts/Hanken Design Co - Neue Einstellung Bold.otf');
+}
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant&display=swap');
+
+body{
+  /* font-family: 'Ysabeau Infant', sans-serif;*/
+  font-family: Neue-Einstellung; 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.head{
+  font-family: Neue-Einstellung-bold; 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.logo{
+  cursor: pointer;
+  width: 110px;
+  height: 30px;
+  /* object-fit: contain; */
 }
-
-.App-link {
-  color: #61dafb;
+.logo-div{
+  height: 39px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sticky{
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }

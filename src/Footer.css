@@ -1,0 +1,8 @@
+.footer{
+	margin-bottom: 0;
+	height: 150px;
+    background-color: #067245;
+}
+.space-between{
+    justify-content: space-around;
+}

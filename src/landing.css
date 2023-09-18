@@ -1,0 +1,94 @@
+@keyframes motto {
+    from {top: 30vh;
+        opacity: 0.3;}
+    to {top: 27vh;
+        opacity: 1;}
+}
+
+/* .land{
+    height: 504px;
+} */
+
+.motto{
+    position: absolute;
+    left: 28vw;
+    z-index: 10;
+    font-size: 4rem;
+    width: 40vw;
+    animation: motto ease-in 1s;
+    animation-fill-mode: forwards;
+    color: rgba(255, 255, 255, 0.753);
+}
+.motto:hover{
+    color: white
+}
+.pics{
+    max-height: 504px;
+    overflow: hidden;
+}
+
+.spotlight{
+    position: absolute;
+    width: 100%;
+    height: 503px;
+    background: #000000dd;
+}
+
+@keyframes motto1 {
+    from {top: 25vh;
+        opacity: 0.3;}
+    to {top: 18vh;
+        opacity: 1;}
+}
+@keyframes motto2 {
+    from {top: 18vh;
+        opacity: 0.3;}
+    to {top: 15vh;
+        opacity: 1;}
+}
+
+@media only screen and (max-width: 960px) {
+    .head {
+        left: 25vw;
+        width: 50vw;
+		/* font-size: 2.5rem; */
+        text-align: center;
+        animation: motto1 ease-in 1s;
+        animation-fill-mode: forwards;
+		padding: 0;
+	}
+    .pics{
+        max-height: 402px;
+        overflow: hidden;
+    }
+    .pics img{
+        height: 200px;
+        width: auto;
+    }
+    .spotlight{
+        height: 401px;
+    }
+}
+@media only screen and (max-width: 410px) {
+    .head {
+        left: 18vw;
+        width: 50vw;
+		font-size: 1.5rem;
+        text-align: center;
+		padding: 0;
+        animation: motto2 ease-in 1s;;
+        animation-fill-mode: forwards;
+	}
+    .spotlight{
+        background-color: transparent;
+        height: 204px;
+    }
+    .pics{
+        max-height: 205px;
+        overflow: hidden;
+    }
+    .pics img{
+        height: 100px;
+        width: auto;
+    }
+}
