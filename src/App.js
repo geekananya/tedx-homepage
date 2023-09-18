@@ -1,6 +1,6 @@
 import Land from './Landing.js';
-import Body from './Body'
-import Footer from './Footer'
+import Body from './Body.js'
+import Footer from './Footer.js'
 import logo from './assets/logo.png'
 import './App.css';
 
