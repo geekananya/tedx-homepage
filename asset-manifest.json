@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/tedx-homepage/static/css/main.47a6ac2f.css",
+    "main.js": "/tedx-homepage/static/js/main.a2a9d441.js",
+    "static/js/787.c26ba255.chunk.js": "/tedx-homepage/static/js/787.c26ba255.chunk.js",
+    "static/media/Event2021.jpg": "/tedx-homepage/static/media/Event2021.3b568cc29d0bfc759477.jpg",
+    "static/media/logo.png": "/tedx-homepage/static/media/logo.3b010ec10de1e99287b1.png",
+    "static/media/Hanken Design Co - Neue Einstellung Bold.otf": "/tedx-homepage/static/media/Hanken Design Co - Neue Einstellung Bold.e0097e974a04ff920e46.otf",
+    "static/media/Hanken Design Co - Neue Einstellung Regular.otf": "/tedx-homepage/static/media/Hanken Design Co - Neue Einstellung Regular.660ae7c8ae99b67b268a.otf",
+    "static/media/main.jpg": "/tedx-homepage/static/media/main.ccb8e6cb91ea319e7ef4.jpg",
+    "static/media/speaker7.jpg": "/tedx-homepage/static/media/speaker7.1b8a4655301625fa814a.jpg",
+    "static/media/speaker8.jpg": "/tedx-homepage/static/media/speaker8.387a3483193a010e1e02.jpg",
+    "static/media/speaker6.jpg": "/tedx-homepage/static/media/speaker6.a702e00f5c0f078d73c9.jpg",
+    "static/media/speaker3.jpg": "/tedx-homepage/static/media/speaker3.5716cebb238acc2a4a6c.jpg",
+    "static/media/speaker5.jpg": "/tedx-homepage/static/media/speaker5.e139fca5dd5cfdb0d280.jpg",
+    "static/media/speaker2.jpg": "/tedx-homepage/static/media/speaker2.d9b3d0f114f4f35a3d80.jpg",
+    "static/media/speaker4.jpg": "/tedx-homepage/static/media/speaker4.a416eba4662155ec947f.jpg",
+    "static/media/speaker1.jpg": "/tedx-homepage/static/media/speaker1.63d55a61b0790b20a1cd.jpg",
+    "static/media/tedx-logo-hero.png": "/tedx-homepage/static/media/tedx-logo-hero.9dbaae9b95e89354c30a.png",
+    "index.html": "/tedx-homepage/index.html",
+    "main.47a6ac2f.css.map": "/tedx-homepage/static/css/main.47a6ac2f.css.map",
+    "main.a2a9d441.js.map": "/tedx-homepage/static/js/main.a2a9d441.js.map",
+    "787.c26ba255.chunk.js.map": "/tedx-homepage/static/js/787.c26ba255.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.47a6ac2f.css",
+    "static/js/main.a2a9d441.js"
+  ]
+}
